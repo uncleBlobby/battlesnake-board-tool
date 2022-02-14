@@ -1,0 +1,24 @@
+#mainContainer {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+#boardContainer {
+    justify-self: center;
+    display:grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    width: 55vw;
+    height: 85vh;
+    border: 1px solid black;
+}
+
+.cell {
+    border: 1px solid black;
+}
+
+.cell:hover {
+    background: chartreuse;
+}
